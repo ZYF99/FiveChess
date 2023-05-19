@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World,Activity!</string>
+    <string name="app_name">五子棋</string>
+    <string name="main_PVE">开始对局</string>
+    <string name="main_Log">登录账户</string>
+    <string name="main_Register">注册账户</string>
+    <string name="main_Rule">游戏规则</string>
+    <string name="Account">账号：</string>
+    <string name="Password">密码：</string>
+    <string name="Password_again">确认：</string>
+    <string name="Account_hint">请输入用户名</string>
+    <string name="Password_hint">请输入密码</string>
+    <string name="Password_again_hint">请再次输入密码</string>
+    <string name="Log">登录</string>
+    <string name="Register">注册</string>
+    <string name="LogP">登录界面</string>
+    <string name="RegisterP">注册界面</string>
+    <string name="SettingP">游戏设置</string>
+    <string name="InformationP">个人信息</string>
+
+    <string name="NoAgoR">还没有账号？去注册</string>
+    <string name="Back_to_log">已有账号？回到登录</string>
+
+    <string name="choose_chess">选择执子</string>
+    <string name="first_step">先手</string>
+    <string name="second_step">后手</string>
+    <string name="player">玩家</string>
+    <string name="computer">电脑</string>
+    <string name="score_0">分数 : 0</string>
+
+</resources>

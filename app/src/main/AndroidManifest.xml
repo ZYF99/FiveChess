@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gobang">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="GoBang"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GobangGame">
+        <activity
+            android:name=".activity.user.WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:launchMode="singleTask"
+            android:exported="true">
+        </activity>
+        <activity android:name=".activity.user.RuleActivity" />
+        <activity android:name=".activity.user.LoginActivity" />
+        <activity android:name=".activity.user.RegisterActivity" />
+        <activity android:name=".activity.PVEActivity" />
+        <activity android:name=".activity.PVPLocalActivity" />
+        <activity android:name=".activity.PVPOLActivity" />
+
+        <receiver android:name=".util.ChessPlaceReceiver" android:enabled="true" android:exported="true">
+        <intent-filter>
+            <action android:name="com.example.gobanggame.action.CRAZY_BROADCAST" />
+        </intent-filter>
+        </receiver>
+
+    </application>
+
+
+
+</manifest>

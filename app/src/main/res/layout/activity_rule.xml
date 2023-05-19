@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_login">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginStart="9dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="234dp"
+            android:layout_height="66dp"
+            android:text="@string/main_Rule"
+            android:textSize="24sp"
+            android:padding="18dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:background="@drawable/rule">
+        </TextView>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="9dp"
+            android:layout_marginEnd="9dp"
+            android:layout_marginTop="75dp"
+            android:layout_marginBottom="75dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <FrameLayout
+                    android:layout_width="304dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/image_text_head">
+                    <ImageView
+                        android:id="@+id/iv_rule_image"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_gravity="center">
+                    </ImageView>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="9dp"
+                    android:layout_marginEnd="9dp">
+                    <TextView
+                        android:id="@+id/et_rule"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="20sp"
+                        android:background="@drawable/edit_text_rule">
+                    </TextView>
+                </FrameLayout>
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="35dp"
+                android:layout_marginStart="35dp"
+                android:layout_marginEnd="35dp"
+                android:layout_gravity="bottom">
+                <ImageView
+                    android:id="@+id/btn_rule_left"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rule_left">
+                </ImageView>
+                <TextView
+                    android:id="@+id/tv_rule_page"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="4dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:textSize="26sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black">
+                </TextView>
+                <ImageView
+                    android:id="@+id/btn_rule_right"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    android:background="@drawable/rule_right">
+                </ImageView>
+            </FrameLayout>
+
+        </FrameLayout>
+
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="130dp"
+        android:layout_height="65dp"
+        android:layout_gravity="end|bottom"
+        android:background="@drawable/btn_back">
+    </Button>
+
+</FrameLayout>

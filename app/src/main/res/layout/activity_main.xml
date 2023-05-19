@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:background="@drawable/wzq" />
+
+    <Button
+        android:id="@+id/Button_start"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/ink1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="@string/main_PVE"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/whitesmoke" />
+
+    <Button
+        android:id="@+id/Button_Log"
+        android:layout_marginTop="280dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/main_Log"
+        android:background="@drawable/ink2"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/whitesmoke" />
+
+    <Button
+        android:id="@+id/Button_Register"
+        android:layout_marginTop="400dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/main_Register"
+        android:background="@drawable/ink3"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/whitesmoke" />
+
+    <Button
+        android:id="@+id/Button_RULE"
+        android:layout_marginTop="520dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/main_Rule"
+        android:background="@drawable/ink4"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@color/whitesmoke" />
+
+    <Button
+        android:id="@+id/Button_Setting"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_gravity="start|bottom"
+        android:background="@drawable/setting" />
+
+    <Button
+        android:id="@+id/Button_Info"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:background="@drawable/info"
+        android:layout_gravity="end|bottom" />
+
+
+</FrameLayout>
